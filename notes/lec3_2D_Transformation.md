@@ -19,7 +19,7 @@ style="display: block;
 ----
 # 2D Transformations
 ## Homogeneous Coordinates
-- ***why need this?***
+- *why need this?*
 Transformations using 2\*2 matrix are hard to be unified. like:
 $$
 \begin{bmatrix}
@@ -39,7 +39,7 @@ t_x \\
 t_y
 \end{bmatrix} 
 $$
-- ***definition?***
+- *definition?*
 Add an extra coordinate $w$: $(x,y,w)^T$
 - 2D-vector = $(x, y, 0)^T$
 - 2D-point = $(x,y,1)^T$.
@@ -60,7 +60,7 @@ y \\
 1
 \end{bmatrix} 
 $$
-***NOTE: for 2D-point, $(x,y,w)^T=(\frac{x}{w},\frac{y}{w},1)^T\hspace{1cm}w\neq 0$.***
+**NOTE: for 2D-point, $(x,y,w)^T=(\frac{x}{w},\frac{y}{w},1)^T\hspace{1cm}w\neq 0$.**
 ## Linear Transformations
 operated on 2D-vectors.
 ### scaling matrix
@@ -130,7 +130,7 @@ $M^{-1}$ is the inverse transform matrix.
 1. Matrix multiplication is **not commutative**, also the transformations.
 2. Matrices are applied **from right to left**.
 $$A_n(...A_2(A_1(x)))=A_n...A_2 \cdot A_1x=Mx$$
-***Decomposing Transformation?***
+*Decomposing Transformation?*
 1. Translate to the origin.
 2. Rotate the angle you want.
 3. Translate back.
