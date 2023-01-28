@@ -117,3 +117,12 @@ $$
 $$
 z'=\frac{z(n+f)-nf}{z}=n+f-\frac{nf}{z}<z
 $$
+
+in perspective projection, use **field-of-view (fovY)** and **aspect ratio** to substitute *left, right, top, bottom*:
+![[fovY_aspect_view.png|450]]
+
+$$
+tan\frac{fovY}{2}=\frac{t}{|n|}
+\quad \quad \quad
+aspect=\frac{right}{top}
+$$
