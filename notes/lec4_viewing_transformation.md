@@ -113,7 +113,7 @@ next, do orthographic projection to print.
 $$
 M_{persp}=M_{ortho}M_{persp\rightarrow ortho}
 $$
-**NOTE: The new z' is *NOT* equivalent to the original z. It is farer to origin.**
+>**NOTE: The new z' is *NOT* equivalent to the original z. It is farer to origin.**
 $$
 z'=\frac{z(n+f)-nf}{z}=n+f-\frac{nf}{z}<z
 $$

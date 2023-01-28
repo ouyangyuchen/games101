@@ -60,7 +60,7 @@ y \\
 1
 \end{bmatrix} 
 $$
-***NOTE: for 2D-point, $(x,y,w)^T=(\frac{x}{w},\frac{y}{w},1)^T\hspace{1cm}w\neq 0$.***
+>**NOTE: for 2D-point, $(x,y,w)^T=(\frac{x}{w},\frac{y}{w},1)^T\hspace{1cm}w\neq 0$.**
 ## Linear Transformations
 operated on 2D-vectors.
 ### scaling matrix

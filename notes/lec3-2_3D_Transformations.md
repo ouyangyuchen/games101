@@ -24,7 +24,7 @@ h & i & j & t_z\\
 0 & 0 & 0 & 1
 \end{bmatrix} 
 $$
-***Rotate First, Translation second!!!***
+>**Rotate First, Translation second!!!**
 ## Scaling Matrix
 $$S(s_x,s_y,s_z)=
 \begin{bmatrix}
