@@ -80,7 +80,7 @@ $$
 0 & 0 & 1
 \end{bmatrix} 
 $$
-![[reflection matrix.png|400]]
+![[3_reflection matrix.png|400]]
 *x-axis reflection*
 ### shear matrix
 $$
@@ -90,7 +90,7 @@ $$
 0 & 0 & 1
 \end{bmatrix}
 $$
-![[shear_2d.png|400]]
+![[3_shear_2d.png|400]]
 - horizontal shift is $ay$
 - vertical not changed
 ### rotate matrix
@@ -102,7 +102,7 @@ sin\theta & cos\theta & 0\\
 \end{bmatrix} 
 $$
 *rotating $\theta$ degrees*
-![[rotate_2d.png|400]]
+![[3_rotate_2d.png|400]]
 ## Translation Matrix
 operated on 2D-point.
 $$T(t_x,t_y)=
@@ -134,5 +134,5 @@ $$A_n(...A_2(A_1(x)))=A_n...A_2 \cdot A_1x=Mx$$
 1. Translate to the origin.
 2. Rotate the angle you want.
 3. Translate back.
-![[composing_transforms.png|700]]
+![[3_composing_transforms.png|700]]
 $$M=T(c)\cdot R(\alpha) \cdot T(-c)$$

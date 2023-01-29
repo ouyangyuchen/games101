@@ -71,7 +71,7 @@ sin\alpha & cos\alpha & 0 & 0\\
 0 & 0 & 0 & 1
 \end{bmatrix} 
 $$
-![[rotate_3d.png|300]]
+![[3_2_rotate_3d.png|300]]
 *rotation in 3-dimension*
 
 ----
