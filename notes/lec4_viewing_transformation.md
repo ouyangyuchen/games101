@@ -14,8 +14,8 @@ define the camera:
 - look-at / **gaze direction** $\overrightarrow{g}$
 - **up-direction** $\overrightarrow{t}$
 
-![[view_transform.png|300]]
-![[view_transform2.png|300]]
+![[4_view_transform.png|300]]
+![[4_view_transform2.png|300]]
 always transform camera to:
 - **the origin, up at Y, look-at -Z**
 - **all objects along with**
@@ -56,10 +56,10 @@ $$
 ----
 # Projection
 **from 3D to 2D**
-![[projection.png|600]]
+![[4_projection.png|600]]
 *perspective projection and orthographic projection*
 ## Orthographic Projection
-![[ortho_projection.png]]
+![[4_ortho_projection.png]]
 *orthographic projection*
 $$
 M_{ortho}=
@@ -78,7 +78,7 @@ M_{ortho}=
 $$
 ## Perspective Projection
 
-![[perspective_proj.png|500]]
+![[4_perspective_proj.png|500]]
 *perspective projection transform*
 $$x'=\frac{nx}{z}\quad\quad y'=\frac{ny}{z}$$
 using equality property of [[lec3-2_3D_Transformations#3D Homogeneous Coordinates|homogeneous coordinates]]:
@@ -119,7 +119,7 @@ z'=\frac{z(n+f)-nf}{z}=n+f-\frac{nf}{z}<z
 $$
 
 in perspective projection, use **field-of-view (fovY)** and **aspect ratio** to substitute *left, right, top, bottom*:
-![[fovY_aspect_view.png|450]]
+![[4_fovY_aspect_view.png|450]]
 
 $$
 tan\frac{fovY}{2}=\frac{t}{|n|}
