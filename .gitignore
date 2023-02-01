@@ -33,3 +33,6 @@
 
 # notes in markdown
 ./notes/
+
+# vscode config
+.vscode/
