@@ -31,5 +31,5 @@
 *.out
 *.app
 
-# Obsidian config
-.obsidian/
+# notes in markdown
+./notes/
