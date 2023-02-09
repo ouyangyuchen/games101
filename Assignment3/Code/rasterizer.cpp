@@ -149,7 +149,7 @@ auto to_vec4(const Eigen::Vector3f& v3, float w = 1.0f)
     return Vector4f(v3.x(), v3.y(), v3.z(), w);
 }
 
-static bool insideTriangle(int x, int y, const Vector4f* _v){
+static bool insideTriangle(float x, float y, const Vector4f* _v){
     Vector3f v[3];
     for(int i=0;i<3;i++)
         v[i] = {_v[i].x(),_v[i].y(), 1.0};
@@ -281,7 +281,7 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eig
     for (int x = x_min; x < x_max; ++x) {
         for (int y = y_min; y < y_max; ++y) {
             if (insideTriangle(x + 0.5, y + 0.5, t.v)) {
-                auto [alpha, beta, gam] = computeBarycentric2D(x+0.5, y+0.5, t.v);
+                auto [alpha, beta, gam] = computeBarycentric2D(x + 0.5, y + 0.5, t.v);
                 float Z = 1.0 / (alpha / t.v[0].w() + beta / t.v[1].w() + gam / t.v[2].w());
                 alpha *= Z / t.v[0].w();
                 beta *= Z / t.v[1].w();
