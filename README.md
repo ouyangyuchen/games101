@@ -8,6 +8,3 @@ GAMES101 is the fundamental computer graphics course given by [GAMES: Graphics A
 ## Homework
 All original homework files can be found at this [link](http://games-cn.org/forums/topic/allhw/). This repo is only to store owner's completed homework.  
 ***Note: You can finish setting the working environment on VirtualBox by hw0.***
-
-## Notes
-Besides the slides given on the website, this repo also contains owner's notes on *Obsidian* during his study process. You can find the notes in the `notes` directory.  
